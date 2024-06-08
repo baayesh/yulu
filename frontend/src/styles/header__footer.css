@@ -9,28 +9,26 @@
   margin: 0em auto;
   align-items: center;
   justify-content: center;
-  background: linear-gradient(to bottom, #f7ef8a, rgba(0,0,0,0));
-  z-index: 10;
+background-color: #f7ef8a;
   width: 100vw;
 }
 
 .nav__container {
-  justify-content: end;
-  justify-content: flex-end;
   z-index: 10;
 }
 
 .nav__list {
-  justify-content: flex-end;
-  align-self: flex-end;
-  right: 0;
+    margin-top: 1em;
+
 }
 
 .nav__link {
   text-decoration: none;
-  margin-right: 1em;
+  padding:0.7em 2em;
+  border-radius: 1.5em;
+  color: #083F88;
 }
 
 .nav__link:hover {
-  text-decoration: underline;
+  background-color: #f7ef8a;
 }

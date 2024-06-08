@@ -1,12 +1,39 @@
 import React from "react";
 import "../../styles/home.css";
-import heroImg from '../../assets/home/hero.png'
+import heroImg from "../../assets/home/hero.png";
 
 const Hero = () => {
   return (
     <section>
       <div className="hero__container column">
         <img src={heroImg} alt="" />
+        <div className="hero__car__search container column">
+          <h1 className="subheading__1">RENT WITH US</h1>
+          <div className="car__search row">
+            <div className="column search__city">
+              <label className="tag__1 " for="city">
+                City
+              </label>
+              <input type="text" id="city" />
+            </div>
+            <div className="pickup__date column">
+              <label className="tag__1 " for="city">
+                Pickup Date
+              </label>
+              <input type="date" id="city" />
+            </div>
+            <div className="drop__date column">
+              <label className="tag__1 " for="city">
+                Drop Date
+              </label>
+              <input type="date" id="city" />
+            </div>  
+
+          </div>
+          <button>
+              Rent Your SUV
+            </button>
+        </div>
       </div>
     </section>
   );

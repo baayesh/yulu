@@ -1,9 +1,78 @@
 /* Section 1 - Hero */
-.hero__container{
-    width: auto;
-    margin-top: -5em;
-    z-index: 0;
+.hero__container {
+  width: auto;
+  justify-content: center;
+  align-items: center;
+  z-index: 5;
+  margin-top: 1em;
+  border-radius: 2em;
+  position: relative;
+  
+}
 
-    
-   
+.hero__car__search {
+  position: absolute;
+  margin: 0em auto;
+  background-color: lightcyan;
+  align-self: center;
+  padding: 2em;
+}
+
+.car__search{
+    background-color: lightcoral;
+
+}
+
+.search__city{
+    text-align: start;
+    padding:1em;
+}
+
+.search__city label{
+    margin-left: 1em;
+    margin-bottom: 0.1em;
+}
+
+.search__city input{
+    background-color:#F7EF8A;
+    height: 3em;
+    width:20em;
+    border-width: 0px;
+    border-radius: 2em;
+}
+
+.pickup__date{
+    text-align: start;
+    padding:1em;
+}
+
+.pickup__date label{
+    margin-left: 1em;
+    margin-bottom: 0.1em;
+}
+
+.pickup__date input{
+    background-color:#F7EF8A;
+    height: 3em;
+    width:20em;
+    border-width: 0px;
+    border-radius: 2em;
+}
+
+.drop__date{
+    text-align: start;
+    padding:1em;
+}
+
+.drop__date label{
+    margin-left: 1em;
+    margin-bottom: 0.1em;
+}
+
+.drop__date input{
+    background-color:#F7EF8A;
+    height: 3em;
+    width:20em;
+    border-width: 0px;
+    border-radius: 2em;
 }
