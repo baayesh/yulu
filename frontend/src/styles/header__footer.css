@@ -1,37 +1,36 @@
 /* Header - Section 1 */
-.header_linear__gradient{
-    background: linear-gradient(to bottom, #F7EF8A, white);
+.header_linear__gradient {
 
+  z-index: 10;
 }
 
-.header__top__bar{
-    padding: 1em 0em;
-    margin: 0em auto;
-    align-items:left;
+.header__top__bar {
+  padding: 1em 0em;
+  margin: 0em auto;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #f7ef8a, rgba(0,0,0,0));
+  z-index: 10;
+  width: 100vw;
 }
 
-.nav__container{
-    justify-content: end;
-    justify-content: flex-end;
-
-    
+.nav__container {
+  justify-content: end;
+  justify-content: flex-end;
+  z-index: 10;
 }
 
-.nav__list{
-    justify-content: flex-end;
-    align-self: flex-end;
-    right: 0;
-
+.nav__list {
+  justify-content: flex-end;
+  align-self: flex-end;
+  right: 0;
 }
 
-.nav__link{
-    text-decoration: none;
-    margin-right: 1em;
-  
+.nav__link {
+  text-decoration: none;
+  margin-right: 1em;
 }
 
-.nav__link:hover{
-    text-decoration: underline;
+.nav__link:hover {
+  text-decoration: underline;
 }
-
-

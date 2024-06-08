@@ -2,11 +2,11 @@ import React from "react";
 import "../../styles/header__footer.css";
 // Make navigation align to right side
 
-const header = () => {
+const Header = () => {
   return (
     <section>
       <div className="column header_linear__gradient">
-        <div className="container row  header__top__bar">
+        <div className="row  header__top__bar">
           <h3 className="main__heading__2">YULU RENTER CAR</h3>
         </div>
         <div className="row container nav__container">
@@ -30,4 +30,4 @@ const header = () => {
   );
 };
 
-export default header;
+export default Header;

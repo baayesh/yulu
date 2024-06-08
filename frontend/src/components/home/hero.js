@@ -1,9 +1,15 @@
-import React from 'react'
+import React from "react";
+import "../../styles/home.css";
+import heroImg from '../../assets/home/hero.png'
 
-const hero = () => {
+const Hero = () => {
   return (
-    <div>hero</div>
-  )
-}
+    <section>
+      <div className="hero__container column">
+        <img src={heroImg} alt="" />
+      </div>
+    </section>
+  );
+};
 
-export default hero
+export default Hero;
