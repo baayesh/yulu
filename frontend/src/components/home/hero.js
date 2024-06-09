@@ -30,7 +30,7 @@ const Hero = () => {
             </div>  
 
           </div>
-          <button>
+          <button type='submit' className="search__suv__submit paragraph">
               Rent Your SUV
             </button>
         </div>

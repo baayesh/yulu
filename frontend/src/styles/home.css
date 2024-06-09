@@ -18,8 +18,23 @@
   padding: 2em;
 }
 
+.hero__car__search button{
+    width: 15em;
+    height: 3em;
+    margin: 1em auto;
+    border-radius: 3em;
+    border-width: 0;
+    background-color: #083F88;
+    color: white;
+    font-family: 'cabin', sans-serif;
+}
+
+.hero__car__search button:hover{
+    background-color: #285b9e;
+}
+
 .car__search{
-    background-color: lightcoral;
+
 
 }
 
@@ -39,6 +54,15 @@
     width:20em;
     border-width: 0px;
     border-radius: 2em;
+    padding-left: 20px;
+}
+
+.search__city input:focus{
+    outline: none;
+}
+
+.search__city input::placeholder{
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .pickup__date{
@@ -54,9 +78,14 @@
 .pickup__date input{
     background-color:#F7EF8A;
     height: 3em;
-    width:20em;
+    width:10em;
     border-width: 0px;
     border-radius: 2em;
+    padding:0px 20px;
+}
+
+.pickup__date input:focus{
+    outline: none;
 }
 
 .drop__date{
@@ -72,7 +101,16 @@
 .drop__date input{
     background-color:#F7EF8A;
     height: 3em;
-    width:20em;
+    width:10em;
     border-width: 0px;
     border-radius: 2em;
+    padding:0px 20px;
+}
+
+.drop__date input:focus{
+    outline: none;
+}
+
+.drop__date input::placeholder{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
