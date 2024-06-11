@@ -4,12 +4,16 @@
   z-index: 10;
 }
 
+.header_linear__gradient h3{
+  color: #043677;
+}
+
 .header__top__bar {
   padding: 1em 0em;
   margin: 0em auto;
   align-items: center;
   justify-content: center;
-background-color: #f7ef8a;
+background-color: #FFD700;
   width: 100vw;
 }
 
@@ -30,5 +34,5 @@ background-color: #f7ef8a;
 }
 
 .nav__link:hover {
-  background-color: #f7ef8a;
+  background-color: #FFD700;
 }

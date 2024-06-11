@@ -5,6 +5,42 @@
   src: url(./assets/fonts/Lastica.ttf);
 }
 
+@font-face{
+  font-family: ab-lib-b;
+  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-Bold.ttf);
+}
+
+@font-face{
+  font-family: ab-lib-eb;
+  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-ExtraBold.ttf);
+}
+
+@font-face{
+  font-family: ab-lib-m;
+  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-Medium.ttf);
+}
+
+@font-face{
+  font-family: ab-lib-r;
+  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-Regular.ttf);
+}
+
+@font-face{
+  font-family: ab-lib-sb;
+  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: fogl;
+  src: url(./assets/fonts/Foglighten/FoglihtenPCS-068.otf);
+}
+
+@font-face {
+  font-family: agraham;
+  src: url(./assets/fonts/Agraham/Agraham.otf);
+}
+
+
 .App {
   text-align: center;
   margin: 0;
@@ -13,22 +49,22 @@
 /* Texts */
 
 .main__heading {
-  font-family: lastica, "sans-serif";
+  font-family: agraham, "sans-serif";
   font-weight: bolder;
   font-size: 3rem;
   margin: 0;
 }
 
 .main__heading__2{
-  font-family: lastica, "sans-serif";
-  font-weight: 700;
-  font-size: 1rem;
-  letter-spacing: 0.4ch;
+  font-family: agraham, "sans-serif";
+  font-weight: 900;
+  font-size:1rem;
+  letter-spacing: 0ch;
   margin: 0;
 }
 
 .subheading__1 {
-  font-family: "cabin", sans-serif;
+  font-family: agraham, sans-serif;
   font-weight: 900;
   font-size: 3rem;
   letter-spacing: 0.1ch;
@@ -37,7 +73,7 @@
 }
 
 .subheading__2 {
-  font-family: "cabin", sans-serif;
+  font-family: agraham, sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.05ch;
@@ -46,7 +82,7 @@
 }
 
 .paragraph {
-  font-family: "cabin", sans-serif;
+  font-family: agraham, sans-serif;
   font-weight: 500;
   font-size: 1rem;
   letter-spacing: 0.1ch;
@@ -55,14 +91,14 @@
 }
 
 .tag__1{
-  font-family: 'cabin', sans-serif;
+  font-family: agraham, sans-serif;
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.6rem;
   margin: 0;
 }
 
 .tag__2{
-  font-family:'cabin', sans-serif;
+  font-family:agraham, sans-serif;
   font-weight: 700;
   font-size: 0.6rem;
   margin: 0;
@@ -93,7 +129,7 @@
 }
 
 .pk{
-  color:#F99E0A;
+  color:#FFD700;
 }
 
 .sc{
@@ -101,7 +137,7 @@
 }
 
 .ac{
-  color: #F7EF8A;
+  color: #FFD700;
 }
 
 .bg__1{
@@ -110,16 +146,16 @@
 }
 
 .bg__2{
-  background-color: #F7EF8A;
+  background-color: #FFD700;
   color: black;
 }
 
 .bg__3{
-  background-color: #F99E0A;
+  background-color: #FFD700;
   color: white;
 }
 
 .bg__4{
-  background-color: #F99E0A;
+  background-color: #FFD700;
   color: black;
 }

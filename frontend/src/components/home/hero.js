@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
-import heroImg from "../../assets/home/hero.png";
+import heroImg from "../../assets/home/hero.jpg";
 
 const Hero = () => {
   return (
@@ -14,7 +14,7 @@ const Hero = () => {
               <label className="tag__1 " for="city">
                 City
               </label>
-              <input type="text" id="city" />
+              <input type="text" id="city" className="pk"/>
             </div>
             <div className="pickup__date column">
               <label className="tag__1 " for="city">

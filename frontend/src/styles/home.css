@@ -13,9 +13,12 @@
 .hero__car__search {
   position: absolute;
   margin: 0em auto;
-  background-color: lightcyan;
   align-self: center;
   padding: 2em;
+}
+
+.hero__car__search h1{
+
 }
 
 .hero__car__search button{
@@ -26,7 +29,7 @@
     border-width: 0;
     background-color: #083F88;
     color: white;
-    font-family: 'cabin', sans-serif;
+    font-family: 'ab-lib-eb', sans-serif;
 }
 
 .hero__car__search button:hover{
@@ -36,6 +39,10 @@
 .car__search{
 
 
+}
+
+.car__search label{
+    color: white;
 }
 
 .search__city{
@@ -49,12 +56,16 @@
 }
 
 .search__city input{
-    background-color:#F7EF8A;
+    background-color:#FFD700;
+    color: #043677;
+    font-family: ab-lib-eb, sans-serif;
+    font-size: 1rem;
     height: 3em;
     width:20em;
     border-width: 0px;
     border-radius: 2em;
     padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .search__city input:focus{
@@ -62,7 +73,8 @@
 }
 
 .search__city input::placeholder{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: agraham, 'sans-serif';
+    color: black;
 }
 
 .pickup__date{
@@ -76,12 +88,15 @@
 }
 
 .pickup__date input{
-    background-color:#F7EF8A;
+    background-color:#FFD700;
+    color: #043677;
+    font-family: ab-lib-eb,'sans-serif';
     height: 3em;
     width:10em;
     border-width: 0px;
     border-radius: 2em;
     padding:0px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .pickup__date input:focus{
@@ -99,12 +114,13 @@
 }
 
 .drop__date input{
-    background-color:#F7EF8A;
+    background-color:#FFD700;
     height: 3em;
     width:10em;
     border-width: 0px;
     border-radius: 2em;
     padding:0px 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .drop__date input:focus{
