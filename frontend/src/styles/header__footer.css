@@ -1,11 +1,10 @@
 /* Header - Section 1 */
 .header_linear__gradient {
-
   z-index: 10;
 }
 
-.header_linear__gradient h3{
-  color: #043677;
+.header_linear__gradient h3 {
+  color: #ffd700;
 }
 
 .header__top__bar {
@@ -13,7 +12,7 @@
   margin: 0em auto;
   align-items: center;
   justify-content: center;
-background-color: #FFD700;
+  background-color: #043677;
   width: 100vw;
 }
 
@@ -22,17 +21,16 @@ background-color: #FFD700;
 }
 
 .nav__list {
-    margin-top: 1em;
-
+  margin-top: 1em;
 }
 
 .nav__link {
   text-decoration: none;
-  padding:0.7em 2em;
+  padding: 0.7em 2em;
   border-radius: 1.5em;
-  color: #083F88;
+  color: #083f88;
 }
 
 .nav__link:hover {
-  background-color: #FFD700;
+  background-color: #ffd700;
 }

@@ -7,7 +7,7 @@ const Header = () => {
     <section>
       <div className="column header_linear__gradient">
         <div className="row  header__top__bar">
-          <h3 className="main__heading__2">Yulu Dubai</h3>
+          <h3 className='main__heading'>YULU DUBAI</h3>
         </div>
         <div className="row container nav__container">
           {/* <img src={logo} alt="logo" className="logo" /> */}

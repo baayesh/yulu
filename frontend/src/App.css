@@ -1,43 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap");
 
 @font-face {
-  font-family: lastica;
-  src: url(./assets/fonts/Lastica.ttf);
-}
-
-@font-face{
-  font-family: ab-lib-b;
-  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-Bold.ttf);
-}
-
-@font-face{
-  font-family: ab-lib-eb;
-  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-ExtraBold.ttf);
-}
-
-@font-face{
-  font-family: ab-lib-m;
-  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-Medium.ttf);
-}
-
-@font-face{
-  font-family: ab-lib-r;
-  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-Regular.ttf);
-}
-
-@font-face{
-  font-family: ab-lib-sb;
-  src: url(./assets/fonts/AbhayaLibre/AbhayaLibre-SemiBold.ttf);
+  font-family: dalmais;
+  src: url(./assets/fonts/Dalmais/Dalmais.otf);
 }
 
 @font-face {
-  font-family: fogl;
-  src: url(./assets/fonts/Foglighten/FoglihtenPCS-068.otf);
-}
-
-@font-face {
-  font-family: agraham;
-  src: url(./assets/fonts/Agraham/Agraham.otf);
+  font-family: cantata-one;
+  src: url(./assets/fonts/cantata-one/CantataOne-Regular.ttf);
 }
 
 
@@ -49,22 +19,24 @@
 /* Texts */
 
 .main__heading {
-  font-family: agraham, "sans-serif";
+  font-family: dalmais, "sans-serif";
   font-weight: bolder;
   font-size: 3rem;
+  font-weight: 900;
   margin: 0;
+  letter-spacing: 0.5ch;
 }
 
 .main__heading__2{
-  font-family: agraham, "sans-serif";
+  font-family: dalmais, "sans-serif";
   font-weight: 900;
-  font-size:1rem;
-  letter-spacing: 0ch;
+  font-size:4rem;
+  letter-spacing: ch;
   margin: 0;
 }
 
 .subheading__1 {
-  font-family: agraham, sans-serif;
+  font-family: cantata-one, sans-serif;
   font-weight: 900;
   font-size: 3rem;
   letter-spacing: 0.1ch;
@@ -73,7 +45,16 @@
 }
 
 .subheading__2 {
-  font-family: agraham, sans-serif;
+  font-family: cantata-one, sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  letter-spacing: 0.05ch;
+  line-height: 2ch;
+  margin: 0;
+}
+
+.subheading__3 {
+  font-family: cantata-one, sans-serif;
   font-weight: 700;
   font-size: 1.5rem;
   letter-spacing: 0.05ch;
@@ -82,23 +63,24 @@
 }
 
 .paragraph {
-  font-family: agraham, sans-serif;
+  font-family: cantata-one, sans-serif;
   font-weight: 500;
   font-size: 1rem;
-  letter-spacing: 0.1ch;
+  letter-spacing: 0ch;
   line-height: 2ch;
   margin: 0;
 }
 
 .tag__1{
-  font-family: agraham, sans-serif;
+  font-family: cantata-one, sans-serif;
   font-weight: 700;
-  font-size: 0.6rem;
+  font-size: 0.9rem;
+  letter-spacing: 0.1ch;
   margin: 0;
 }
 
 .tag__2{
-  font-family:agraham, sans-serif;
+  font-family:cantata-one, sans-serif;
   font-weight: 700;
   font-size: 0.6rem;
   margin: 0;

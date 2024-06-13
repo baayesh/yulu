@@ -1,6 +1,6 @@
 import React from "react";
 import "../../styles/home.css";
-import heroImg from "../../assets/home/hero.jpg";
+import heroImg from "../../assets/home/hero.png";
 
 const Hero = () => {
   return (
@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="hero__container column">
         <img src={heroImg} alt="" />
         <div className="hero__car__search container column">
-          <h1 className="subheading__1">RENT WITH US</h1>
+          <h1 className="main__heading__2">RENT WITH US</h1>
           <div className="car__search row">
             <div className="column search__city">
               <label className="tag__1 " for="city">

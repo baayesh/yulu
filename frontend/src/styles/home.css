@@ -7,7 +7,10 @@
   margin-top: 1em;
   border-radius: 2em;
   position: relative;
-  
+}
+
+.hero__container img {
+  width: 100%;
 }
 
 .hero__car__search {
@@ -15,118 +18,167 @@
   margin: 0em auto;
   align-self: center;
   padding: 2em;
+  background-color: 	rgba(255, 215, 0, 0.7);
+border-radius: 2em;
+  
 }
 
-.hero__car__search h1{
+.hero__car__search h1 {
+  color: #083f88;
+}
+
+.hero__car__search button {
+  width: 15em;
+  height: 3em;
+  margin: 1em auto;
+  border-radius: 3em;
+  border-width: 0;
+  background-color: #083f88;
+
+  color: #ffd700;
+  font-family: cantata-one, sans-serif;
+}
+
+.hero__car__search button:hover {
+  background-color: #285b9e;
+}
+
+.car__search {
+}
+
+.car__search label {
+  color: #083f88;
+}
+
+.search__city {
+  text-align: start;
+  padding: 1em;
+}
+
+.search__city label {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.search__city input {
+  background-color: #f2f2f2;
+  color: #043677;
+  font-family: cantata-one, sans-serif;
+  font-size: 1rem;
+  height: 3em;
+  width: 20em;
+  border-width: 0px;
+  border-radius: 1em;
+  padding-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search__city input:focus {
+  outline: none;
+}
+
+.search__city input::placeholder {
+  font-family: cantata-one, "sans-serif";
+  color: black;
+}
+
+.pickup__date {
+  text-align: start;
+  padding: 1em;
+}
+
+.pickup__date label {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.pickup__date input {
+  background-color: #f2f2f2;
+  color: #043677;
+  font-family: cantata-one, "sans-serif";
+  height: 3.5em;
+  width: 10em;
+  border-width: 0px;
+  border-radius: 1em;
+  padding: 0px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pickup__date input:focus {
+  outline: none;
+}
+
+.drop__date {
+  text-align: start;
+  padding: 1em;
+}
+
+.drop__date label {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.drop__date input {
+  background-color: #f2f2f2;
+  color: #043677;
+  font-family: cantata-one, "sans-serif";
+  height: 3.5em;
+  width: 10em;
+  border-width: 0px;
+  border-radius: 1em;
+  padding: 0px 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.drop__date input:focus {
+  outline: none;
+}
+
+.drop__date input::placeholder {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+
+/* Our Services */
+.our__services__container{
+    margin: 2em auto;
 
 }
 
-.hero__car__search button{
-    width: 15em;
-    height: 3em;
-    margin: 1em auto;
-    border-radius: 3em;
-    border-width: 0;
-    background-color: #083F88;
-    color: white;
-    font-family: 'ab-lib-eb', sans-serif;
-}
-
-.hero__car__search button:hover{
-    background-color: #285b9e;
-}
-
-.car__search{
+.our__services__container h4{
+    margin: 0 ;
 
 
 }
 
-.car__search label{
-    color: white;
+.our__services__container h2{
+margin: 0;
+
 }
 
-.search__city{
-    text-align: start;
-    padding:1em;
+.our__services__cards{
+    margin: 2em auto;
+    gap: 3em;
 }
 
-.search__city label{
-    margin-left: 1em;
-    margin-bottom: 0.1em;
-}
-
-.search__city input{
-    background-color:#FFD700;
-    color: #043677;
-    font-family: ab-lib-eb, sans-serif;
-    font-size: 1rem;
-    height: 3em;
-    width:20em;
-    border-width: 0px;
+.our__services__card{
+    flex:1;
+    padding:2em;
     border-radius: 2em;
-    padding-left: 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    align-items: flex-start;
 }
 
-.search__city input:focus{
-    outline: none;
-}
-
-.search__city input::placeholder{
-    font-family: agraham, 'sans-serif';
-    color: black;
-}
-
-.pickup__date{
-    text-align: start;
-    padding:1em;
-}
-
-.pickup__date label{
-    margin-left: 1em;
-    margin-bottom: 0.1em;
-}
-
-.pickup__date input{
-    background-color:#FFD700;
-    color: #043677;
-    font-family: ab-lib-eb,'sans-serif';
-    height: 3em;
-    width:10em;
-    border-width: 0px;
+.our__services__card img{
+    width: 100%;
     border-radius: 2em;
-    padding:0px 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.pickup__date input:focus{
-    outline: none;
+.our__services__card h3{
+    margin: 1em 0em 0.2em 0em;
+
 }
 
-.drop__date{
-    text-align: start;
-    padding:1em;
-}
-
-.drop__date label{
-    margin-left: 1em;
-    margin-bottom: 0.1em;
-}
-
-.drop__date input{
-    background-color:#FFD700;
-    height: 3em;
-    width:10em;
-    border-width: 0px;
-    border-radius: 2em;
-    padding:0px 20px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-
-.drop__date input:focus{
-    outline: none;
-}
-
-.drop__date input::placeholder{
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+.our__services__card p{
+    margin: 0;
+    text-align: left;
 }
