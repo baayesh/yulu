@@ -141,3 +141,10 @@
   background-color: #FFD700;
   color: black;
 }
+
+/* Artworks */
+.line__1{
+  width: 90%;
+  height: 2px;
+  background-color: 	rgba(8, 63, 136, 0.5);
+}

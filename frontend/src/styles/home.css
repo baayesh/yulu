@@ -18,9 +18,8 @@
   margin: 0em auto;
   align-self: center;
   padding: 2em;
-  background-color: 	rgba(255, 215, 0, 0.7);
-border-radius: 2em;
-  
+  background-color: rgba(255, 215, 0, 0.7);
+  border-radius: 2em;
 }
 
 .hero__car__search h1 {
@@ -138,47 +137,83 @@ border-radius: 2em;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
-
 /* Our Services */
-.our__services__container{
-    margin: 2em auto;
+.our__services__container {
+  margin: 2em auto;
+}
+
+.our__services__container h4 {
+  margin: 0;
+}
+
+.our__services__container h2 {
+  margin: 0;
+}
+
+.our__services__cards {
+  margin: 2em auto;
+  gap: 3em;
+}
+
+.our__services__card {
+  flex: 1;
+  padding: 2em;
+  border-radius: 2em;
+  align-items: flex-start;
+}
+
+.our__services__card img {
+  width: 100%;
+  border-radius: 2em;
+}
+
+.our__services__card h3 {
+  margin: 1em 0em 0.2em 0em;
+}
+
+.our__services__card p {
+  margin: 0;
+  text-align: left;
+}
+
+/* Cars - Section 3*/
+.cars__main__container{
 
 }
 
-.our__services__container h4{
-    margin: 0 ;
-
-
-}
-
-.our__services__container h2{
-margin: 0;
+.cars__row{
+  gap: 1em;
+  margin:1em auto;
 
 }
 
-.our__services__cards{
-    margin: 2em auto;
-    gap: 3em;
+.individual__car{
+  flex: 1;
+  margin: 0em 0em 1em 1em;
+  justify-content: center;
+  align-items: center;
+  
 }
 
-.our__services__card{
-    flex:1;
-    padding:2em;
-    border-radius: 2em;
-    align-items: flex-start;
+.individual__car img{
+  width: 100%;
+  border-radius: 1em 1em 0em 0em;
 }
 
-.our__services__card img{
-    width: 100%;
-    border-radius: 2em;
-}
-
-.our__services__card h3{
-    margin: 1em 0em 0.2em 0em;
+.individual__car h4{
+  text-align: left;
+  margin-top: 1em;
+  align-self: flex-start;
 
 }
 
-.our__services__card p{
-    margin: 0;
-    text-align: left;
+.individual__car p{
+  text-align: left;
+  align-self: flex-start;
+  margin-bottom: 1em;
+}
+
+.cars__icon{
+  width: 4em;
+  color: #083f88;
 }
