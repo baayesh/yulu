@@ -151,8 +151,12 @@
 }
 
 .our__services__cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+  justify-content: center;
   margin: 2em auto;
   gap: 3em;
+
 }
 
 .our__services__card {
@@ -216,4 +220,11 @@
 .cars__icon{
   width: 4em;
   color: #083f88;
+}
+
+.wrapper__grid{
+  display: grid;
+  grid-template-columns: repeat(auto-fit,minmax(10rem, 20rem));
+  justify-content: center;
+  gap: 1em 1em;
 }
