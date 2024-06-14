@@ -20,23 +20,34 @@ const Header = () => {
             <p>LEXUS</p>
           </div>
         </div>
-        <div className="container nav__container">
+   
           {/* <img src={logo} alt="logo" className="logo" /> */}
-          <nav className="row nav">
-            <div className="row nav__list">
-              <a href="/" className="nav__link ">
-                HOME
+          <nav className="navigation">
+            <div className="nav-container">
+              {/* Brand Logo */}
+              <a href="/" className="nav-brand">
+                YULU DUBAI
               </a>
-              <a href="/about" className="nav__link ">
-                ABOUT&nbsp;US
-              </a>
-              <a href="/contact" className="nav__link ">
-                CONTACT&nbsp;US
-              </a>
+
+              {/* Navigation Links */}
+              <ul className="nav-links">
+                <li>
+                  <a href="#">HOME</a>
+                </li>
+                <li>
+                  <a href="#">ABOUT&nbsp;US</a>
+                </li>
+                <li>
+                  <a href="#">CONTACT&nbsp;US</a>
+                </li>
+                {/* Add more link elements as needed */}
+              </ul>
+
+
             </div>
           </nav>
         </div>
-      </div>
+     
     </section>
   );
 };

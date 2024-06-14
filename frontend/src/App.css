@@ -6,6 +6,11 @@
 }
 
 @font-face {
+  font-family: lastica;
+  src: url(./assets/fonts/Lastica.ttf);
+}
+
+@font-face {
   font-family: cantata-one;
   src: url(./assets/fonts/cantata-one/CantataOne-Regular.ttf);
 }
