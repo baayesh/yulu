@@ -1,19 +1,46 @@
 /* Header - Section 1 */
-.header_linear__gradient {
-  z-index: 10;
-}
-
-.header_linear__gradient h3 {
-  color: #ffd700;
+.header{
+  align-items: center;
 }
 
 .header__top__bar {
-  padding: 1em 0em;
+  padding: 0.6em 0em;
   margin: 0em auto;
   align-items: center;
   justify-content: center;
   background-color: #043677;
   width: 100vw;
+}
+
+.header__top__bar h3 {
+  font-family: "futura-std-book", sans-serif;
+  font-size: 0.7em;
+  margin: 0;
+  color: #ffd700;
+}
+
+/* Header - Section 2 - middle bar*/
+.header__middle__bar {
+  margin: 0 auto;
+}
+
+.middle__brands {
+justify-content: flex-start !important;
+  gap: 1em;
+  padding: 0.6em 0em;
+
+}
+
+.middle__brands p {
+  font-family: "futura-std-light", sans-serif;
+  font-size: 0.7rem;
+  letter-spacing: 0.2ch;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.middle__brands p:hover{
+  text-decoration: underline;
 }
 
 .nav__container {

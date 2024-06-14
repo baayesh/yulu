@@ -5,11 +5,22 @@ import "../../styles/header__footer.css";
 const Header = () => {
   return (
     <section>
-      <div className="column header_linear__gradient">
+      <div className="column header">
         <div className="row  header__top__bar">
-          <h3 className='main__heading'>YULU DUBAI</h3>
+          <h3 className="main__heading">...Offers We are offering...</h3>
         </div>
-        <div className="row container nav__container">
+        <div className="row  header__middle__bar">
+          <div className="row container middle__brands">
+            <p>BMW</p>
+            <p>Alfa Romeo</p>
+            <p>Cadillac</p>
+            <p>Gensis</p>
+            <p>Tesla</p>
+            <p>Audi</p>
+            <p>Lexus</p>
+          </div>
+        </div>
+        <div className="container nav__container">
           {/* <img src={logo} alt="logo" className="logo" /> */}
           <nav className="nav">
             <div className="nav__list">

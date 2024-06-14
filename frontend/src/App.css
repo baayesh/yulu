@@ -10,6 +10,37 @@
   src: url(./assets/fonts/cantata-one/CantataOne-Regular.ttf);
 }
 
+@font-face {
+  font-family: futura-std-book;
+  src: url(./assets/fonts/Futura/FuturaStdBook.otf);
+}
+
+@font-face {
+  font-family: futura-std-condensed;
+  src: url(./assets/fonts/Futura/FuturaStdCondensed.otf);
+}
+
+@font-face {
+  font-family: futura-std-condensed-bold;
+  src: url(./assets/fonts/Futura/FuturaStdCondensedBold.otf);
+}
+
+@font-face {
+  font-family: futura-std-medium;
+  src: url(./assets/fonts/Futura/FuturaStdHeavy.otf);
+}
+
+@font-face {
+  font-family: futura-std-heavy;
+  src: url(./assets/fonts/Futura/FuturaStdHeavy.otf);
+}
+
+@font-face{
+  font-family:futura-std-light;
+  src: url(./assets/fonts/Futura/FuturaStdLight.otf);
+}
+
+
 
 .App {
   text-align: center;
@@ -87,22 +118,61 @@
 }
 
 
+/* Fonts Futura Sans */
+.title-f{
+
+}
+
+.main__heading-f{
+
+}
+
+.subheading__1-f{
+
+}
+
+.subheading__2-f{
+
+}
+
+.subheading__3-f{
+
+}
+
+.subheading__4-f{
+
+}
+
+.paragraph-f{
+
+}
+
+.tag__1-f{
+
+}
+
+.tag__2-f{
+
+}
+
+
+
 /* Layouts */
 .container{
   max-width: 1440px;
-  margin:0em auto;
+
 }
 
 .column{
   display: flex;
   flex-direction: column;
-  margin:0 auto;
+
 }
 
 .row{
   display: flex;
   flex-direction: row;
-  margin: 0 auto;
+
 }
 
 /* colors */

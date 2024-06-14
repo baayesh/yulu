@@ -124,7 +124,7 @@
   height: 3.5em;
   width: 10em;
   border-width: 0px;
-  border-radius: 1em;
+  border-radius: 0em;
   padding: 0px 20px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -162,13 +162,13 @@
 .our__services__card {
   flex: 1;
   padding: 2em;
-  border-radius: 2em;
+  border-radius: 0em;
   align-items: flex-start;
 }
 
 .our__services__card img {
   width: 100%;
-  border-radius: 2em;
+  border-radius: 0em;
 }
 
 .our__services__card h3 {
@@ -201,7 +201,7 @@
 
 .individual__car img{
   width: 100%;
-  border-radius: 1em 1em 0em 0em;
+
 }
 
 .individual__car h4{
