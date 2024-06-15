@@ -1,5 +1,5 @@
 /* Section 1 - Hero */
-.hero__container {
+/* .hero__container {
   width: auto;
   justify-content: center;
   align-items: center;
@@ -135,7 +135,7 @@
 
 .drop__date input::placeholder {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
-}
+} */
 
 /* Our Services */
 .our__services__container {
@@ -156,7 +156,6 @@
   justify-content: center;
   margin: 2em auto;
   gap: 3em;
-
 }
 
 .our__services__card {
@@ -181,50 +180,144 @@
 }
 
 /* Cars - Section 3*/
-.cars__main__container{
-
+.cars__main__container {
 }
 
-.cars__row{
+.cars__row {
   gap: 1em;
-  margin:1em auto;
-
+  margin: 1em auto;
 }
 
-.individual__car{
+.individual__car {
   flex: 1;
   margin: 0em 0em 1em 1em;
   justify-content: center;
   align-items: center;
-  
 }
 
-.individual__car img{
+.individual__car img {
   width: 100%;
-
 }
 
-.individual__car h4{
+.individual__car h4 {
   text-align: left;
   margin-top: 1em;
   align-self: flex-start;
-
 }
 
-.individual__car p{
+.individual__car p {
   text-align: left;
   align-self: flex-start;
   margin-bottom: 1em;
 }
 
-.cars__icon{
+.cars__icon {
   width: 4em;
   color: #083f88;
 }
 
-.wrapper__grid{
+.wrapper__grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(10rem, 20rem));
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
   justify-content: center;
   gap: 1em 1em;
+}
+
+/* new hero  */
+.h__n__mc {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+}
+
+.h__n__mc img {
+  grid-column: 1/ 13;
+  grid-row: 1/6;
+
+  width: 100%;
+}
+
+.h__n__mc h2{
+  grid-column: 3/11;
+  grid-row: 4/5;
+  display: flex;
+  align-self: center;
+  justify-self: center;
+  color: #ffd700;
+  font-family: 'futura-std-heavy', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.2ch;
+  font-size: 3rem;
+}
+
+.h__booking__form {
+  grid-column: 3/11;
+  grid-row: 5/7;
+  background-color: #ffd700;
+  box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+}
+
+.h__inputs {
+  position: relative;
+  grid-column: 5/6;
+  justify-content: space-around;
+  margin-top: 3em;
+
+}
+
+.h__inputs label {
+  text-align: left;
+  margin-bottom: 1em;
+  font-family: "futura-std-medium", sans-serif;
+  letter-spacing: 0.2ch;
+}
+
+.h__inputs input {
+  height: 2.5em;
+  border-width: 0;
+  background-color: #f2f2f2;
+  color: #083f88;
+  font-family: 'futura-std-light', sans-serif;
+  font-size: 0.8rem;
+  letter-spacing: 0.2ch;
+  font-weight: bold;
+  padding: 0em 1em;
+}
+
+.h__inputs input:focus{
+outline: none;
+}
+
+.h__city input {
+  width: 20em;
+}
+
+.h__pickup input {
+  width: 10em;
+}
+
+.h__drop input {
+  width: 10em;
+}
+
+.h__submit__button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-row: 6/7;
+  grid-column: 3/11;
+
+}
+
+.h__submit__button button{
+  padding: 1em 2em;
+  border-width: 0em;
+  font-family: 'futura-std-medium', sans-serif;
+  letter-spacing: 0.2ch;
+}
+
+.h__submit__button button:hover{
+  background-color: #083f88;
+  color: #ffd700;
 }
