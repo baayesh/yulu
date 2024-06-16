@@ -26,7 +26,7 @@ const Header = () => {
             <div className="nav-container">
               {/* Brand Logo */}
               <a href="/" className="nav-brand">
-                YULU DUBAI
+                YULU&nbsp;DUBAI
               </a>
 
               {/* Navigation Links */}

@@ -50,6 +50,7 @@
 .App {
   text-align: center;
   margin: 0;
+ overflow: hidden;
 }
 
 /* Texts */

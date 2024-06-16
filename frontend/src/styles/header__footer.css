@@ -1,7 +1,5 @@
 /* Header - Section 1 */
-.header {
-  /* align-items: center; */
-}
+
 
 .header__top__bar {
   padding: 0.6em 0em;
@@ -9,7 +7,7 @@
   align-items: center;
   justify-content: center;
   background-color: #043677;
-  width: 100vw;
+  width: 100%;
 }
 
 .header__top__bar h3 {
@@ -45,7 +43,6 @@
 /* navigation */
 
 .navigation {
-  
   max-width: 1440px;
   align-self: center;
 
@@ -100,3 +97,27 @@
   text-decoration: none;
   color: #000; }
 
+
+  @media (max-width:1024px){
+    
+    .header__top__bar h3{
+      font-size: 0.6rem;
+    }
+
+    .middle__brands p{
+      font-size: 0.6rem;
+    }
+
+    .nav-links{
+      display: none;
+    }
+
+  }
+
+  @media (max-width:768px){
+
+  }
+
+  @media (max-width:480px){
+
+  }

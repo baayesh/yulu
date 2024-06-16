@@ -228,14 +228,16 @@
   margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 7vw);
 }
 
 .h__n__mc img {
   grid-column: 1/ 13;
   grid-row: 1/6;
+  width:  100%;
+  object-fit: cover;
+  aspect-ratio: 3/1;
 
-  width: 100%;
 }
 
 .h__n__mc h2{
@@ -259,6 +261,8 @@
 }
 
 .h__inputs {
+  display: flex;
+  flex-direction: row;
   position: relative;
   grid-column: 5/6;
   justify-content: space-around;
@@ -289,8 +293,14 @@
 outline: none;
 }
 
+.h__date__inputs{
+  display: flex;
+  flex-direction: row;
+  gap: 3em;
+}
+
 .h__city input {
-  width: 20em;
+ width: 40em;
 }
 
 .h__pickup input {
@@ -307,6 +317,7 @@ outline: none;
   align-items: center;
   grid-row: 6/7;
   grid-column: 3/11;
+  margin-bottom: 1em;
 
 }
 
@@ -315,9 +326,57 @@ outline: none;
   border-width: 0em;
   font-family: 'futura-std-medium', sans-serif;
   letter-spacing: 0.2ch;
+  align-self: flex-end;
 }
 
 .h__submit__button button:hover{
   background-color: #083f88;
   color: #ffd700;
+}
+
+
+@media  (max-width:1024px) {
+ .h__n__mc{
+  grid-template-rows: repeat(6, 5em)
+ }
+
+  .h__n__mc h2{
+    grid-row: 3/4;
+  }
+
+  .h__booking__form{
+    grid-row: 4/7;
+    padding: 1em;
+  }
+
+  .h__inputs{
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1em;
+    gap: 1em  ;
+  }
+  
+  .h__inputs label{
+    font-size: 0.8rem;
+  }
+
+  .h__date__inputs{
+    flex-direction: row;
+    gap: 3em;
+
+  }
+
+  .h__submit__button{
+   align-self: flex-end;
+    margin-bottom: 0.2em;
+  }
+}
+
+@media  (max-width:768px){
+
+}
+
+@media (max-width:480px){
+
 }

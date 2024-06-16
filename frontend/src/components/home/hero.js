@@ -38,24 +38,26 @@ const Hero = () => {
         <img src={heroImg} alt="" />
         <h2>RENT WITH US</h2>
         <div className="h__booking__form">
-          <div className="row h__inputs">
+          <div className="h__inputs">
             <div className="column h__city">
               <label className="" for="city">
                 City
               </label>
               <input type="text" id="city" className="pk" />
             </div>
-            <div className="column h__pickup">
-              <label className="" for="city">
-                Pickup Date
-              </label>
-              <input type="date" id="city" />
-            </div>
-            <div className="column h__drop">
-              <label className="" for="city">
-                Drop Date
-              </label>
-              <input type="date" id="city" />
+            <div className="h__date__inputs">
+              <div className="column h__pickup">
+                <label className="" for="city">
+                  Pickup Date
+                </label>
+                <input type="date" id="city" />
+              </div>
+              <div className="column h__drop">
+                <label className="" for="city">
+                  Drop Date
+                </label>
+                <input type="date" id="city" />
+              </div>
             </div>
           </div>
 
