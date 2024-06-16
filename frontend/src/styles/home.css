@@ -158,7 +158,7 @@
 
 .our__services__cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 20rem));
   justify-content: center;
   margin: 2em auto;
   gap: 3em;
@@ -194,7 +194,30 @@
 }
 
 /* Cars - Section 3*/
+.explore__cars__header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.explore__cars__header > h3{
+  font-family: 'futura-std-medium', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.2ch;
+  font-size: 3rem;
+  margin: 0 0 0.5em 0;
+
+}
+
+.wrapper__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+  justify-content: center;
+  gap: 1em 1em;
+}
+
 .cars__main__container {
+  margin: 0 auto;
 }
 
 .cars__row {
@@ -217,12 +240,20 @@
   text-align: left;
   margin-top: 1em;
   align-self: flex-start;
+  font-family:'futura-std-medium', sans-serif ;
+  letter-spacing: 0.1ch;
+  font-size: 2rem;
+  margin: 0.3em 0 0 0 ;
 }
 
 .individual__car p {
   text-align: left;
   align-self: flex-start;
   margin-bottom: 1em;
+  font-family:'futura-std-light', sans-serif ;
+  font-size: 0.8rem;
+  letter-spacing: 0.2ch;
+  margin-top: 0.7em;
 }
 
 .cars__icon {
@@ -230,12 +261,6 @@
   color: #083f88;
 }
 
-.wrapper__grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
-  justify-content: center;
-  gap: 1em 1em;
-}
 
 /* new hero  */
 .h__n__mc {

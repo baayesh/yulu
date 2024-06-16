@@ -5,60 +5,37 @@ import { FaGasPump } from "react-icons/fa";
 const Cars = () => {
   return (
     <section>
+      <div className="explore__cars__header">
+        <h3>Explore Our SUV's</h3>
+      </div>
       <div className=" wrapper__grid container cars__main__container">
         {/* <div className=" cars__row"> */}
           <div className="column individual__car">
             <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
+            <h4 className=""> Rush</h4>
+            <p className="">Toyota</p>
             <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
             
           </div>
           <div className="column individual__car">
             <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
+            <h4 className=""> Expander</h4>
+            <p className="">Mitsubhishi</p>
+            <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
           </div>
           <div className="column individual__car">
             <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
+            <h4 className=""> Car Name</h4>
+            <p className="">Car Brand</p>
+            <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
           </div>
           <div className="column individual__car">
             <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
+            <h4 className=""> Car Name</h4>
+            <p className="">Car Brand</p>
+            <p className="">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
           </div>
-        {/* </div> */}
-        {/* <div className="row cars__row"> */}
-          <div className="column individual__car">
-            <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
-          </div>
-          <div className="column individual__car">
-            <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
-          </div>
-          <div className="column individual__car">
-            <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
-          </div>
-          <div className="column individual__car">
-            <img src={carImg} alt="" />
-            <h4 className="subheading__3"> Car Name</h4>
-            <p className="tag__2">Car Brand</p>
-            <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
-          </div>
-        {/* </div> */}
+        
       </div>
     </section>
   );
