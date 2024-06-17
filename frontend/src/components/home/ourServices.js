@@ -1,44 +1,138 @@
-import React from 'react';
-import S1Img from '../../assets/home/Our Services/S1.png';
-import S2Img from '../../assets/home/Our Services/S2.png';
-import S3Img from '../../assets/home/Our Services/S3.png';
+import React from "react";
+import S1Img from "../../assets/home/Our Services/S1.png";
+import S2Img from "../../assets/home/Our Services/S2.png";
+import S3Img from "../../assets/home/Our Services/S3.png";
+import S4Img from "../../assets/home/Our Services/S4.png";
+import { CiCalendar } from "react-icons/ci";
+import { PiSpeedometerThin } from "react-icons/pi";
+import { CiUser } from "react-icons/ci";
+import { PiBookOpenUserThin } from "react-icons/pi";
+import { PiGearThin } from "react-icons/pi";
 
 const OurServices = () => {
   return (
     <section>
-        <div className=" container our__services__container">
-            <h2 className=''>Yearly</h2>
-            <h4 className='subheading__2'>Our Best Services for You</h4>
-            <div className="our__services__cards">
-       
-                    <div className="column our__services__card">
-                        <img src={S1Img} alt="" />
-                        <h3 className=''>Service Name</h3>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus praesentium, commodi odit dignissimos exercitationem velit. Suscipit labore enim alias, sunt porro debitis et iure quae corporis non asperiores laboriosam quo reprehenderit inventore itaque amet explicabo. Qui doloribus vel possimus </p>
-                    
-                    </div>
-                    <div className="column our__services__card">
-                    <img src={S2Img} alt="" />
-                    <h3 className=''>Monthly</h3>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus praesentium, commodi odit dignissimos exercitationem velit. Suscipit labore enim alias, sunt porro debitis et iure quae corporis non asperiores laboriosam quo reprehenderit inventore itaque amet explicabo. Qui doloribus vel possimus </p>
-                    
-                    </div>
-             
-                    <div className="column our__services__card">
-                    <img src={S3Img} alt="" />
-                    <h3 className=''>Weekly</h3>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus praesentium, commodi odit dignissimos exercitationem velit. Suscipit labore enim alias, sunt porro debitis et iure quae corporis non asperiores laboriosam quo reprehenderit inventore itaque amet explicabo. Qui doloribus vel possimus </p>
-                    </div>
-                    <div className="column our__services__card">
-                    <img src={S3Img} alt="" />
-                    <h3 className=''>Daily</h3>
-                        <p className=''>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque possimus praesentium, commodi odit dignissimos exercitationem velit. Suscipit labore enim alias, sunt porro debitis et iure quae corporis non asperiores laboriosam quo reprehenderit inventore itaque amet explicabo. Qui doloribus vel possimus </p>
-                    </div>
-         
+      <div className=" container our__services__container">
+        <h2 className="">Yearly</h2>
+        <h4 className="subheading__2">Our Best Services for You</h4>
+        <div className="our__services__cards">
+          <div className="column our__services__card">
+            <img src={S1Img} alt="" />
+            <h3 className="">ARMADA</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Year</p>
             </div>
-        </div>
-    </section>
-  )
-}
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiGearThin />
+              <p>Free Maintanance</p>
+            </div>
 
-export default OurServices
+
+
+            <button>
+              Rent Now
+            </button>
+          </div>
+          <div className="column our__services__card">
+            <img src={S2Img} alt="" />
+            <h3 className="">ECHELON</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Month</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiGearThin />
+              <p>Free Maintanance</p>
+            </div>
+
+
+
+            <button>
+              Rent Now
+            </button>
+          </div>
+
+          <div className="column our__services__card">
+            <img src={S3Img} alt="" />
+            <h3 className="">EXPEDITION</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Week</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+
+            <button>
+              Rent Now
+            </button>
+
+
+          </div>
+          <div className="column our__services__card">
+            <img src={S4Img} alt="" />
+            <h3 className="">IMPULSE</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Day</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+
+            <button>
+              Rent Now
+            </button>
+
+
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default OurServices;
