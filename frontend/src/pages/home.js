@@ -4,6 +4,7 @@ import '../styles/home.css';
 import Hero from '../components/home/hero';
 import OurServices from '../components/home/ourServices';
 import Cars from '../components/home/cars';
+import Footer from '../components/common/footer'
 
 
 const home = () => {
@@ -13,6 +14,7 @@ const home = () => {
         <Hero/>
         <OurServices/>
         <Cars/>
+        <Footer/>
     </div>
   )
 }

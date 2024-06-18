@@ -13,8 +13,8 @@ const OurServices = () => {
   return (
     <section>
       <div className=" container our__services__container">
-        <h2 className="">Yearly</h2>
-        <h4 className="subheading__2">Our Best Services for You</h4>
+        <h2 className="">Our Services</h2>
+        <h4 className="">Our Best Services for You</h4>
         <div className="our__services__cards">
           <div className="column our__services__card">
             <img src={S1Img} alt="" />
@@ -40,12 +40,12 @@ const OurServices = () => {
               <p>Free Maintanance</p>
             </div>
 
-
-
-            <button>
-              Rent Now
-            </button>
+            <button>Rent Now</button>
           </div>
+
+
+
+
           <div className="column our__services__card">
             <img src={S2Img} alt="" />
             <h3 className="">ECHELON</h3>
@@ -70,12 +70,11 @@ const OurServices = () => {
               <p>Free Maintanance</p>
             </div>
 
-
-
-            <button>
-              Rent Now
-            </button>
+            <button>Rent Now</button>
           </div>
+
+
+
 
           <div className="column our__services__card">
             <img src={S3Img} alt="" />
@@ -97,12 +96,12 @@ const OurServices = () => {
               <p>Complementary Detailing </p>
             </div>
 
-            <button>
-              Rent Now
-            </button>
-
-
+            <button>Rent Now</button>
           </div>
+
+
+
+
           <div className="column our__services__card">
             <img src={S4Img} alt="" />
             <h3 className="">IMPULSE</h3>
@@ -123,12 +122,12 @@ const OurServices = () => {
               <p>Complementary Detailing </p>
             </div>
 
-            <button>
-              Rent Now
-            </button>
-
-
+            <button>Rent Now</button>
           </div>
+
+
+
+
         </div>
       </div>
     </section>

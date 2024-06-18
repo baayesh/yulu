@@ -13,7 +13,9 @@ const Cars = () => {
           <div className="column individual__car">
             <img src={carImg} alt="" />
             <h4 className=""> Rush</h4>
-            <p className="">Toyota</p>
+
+              <p className="">Toyota</p>
+
             <p className="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis dolore cupiditate totam ab nam.</p>
             
           </div>

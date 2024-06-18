@@ -143,15 +143,15 @@
 }
 
 .our__services__container h4 {
-  margin: 0.3em;
-  font-family: 'futura-std-medium', 'sans-serif';
+  margin: 0;
+  font-family: "futura-std-medium", "sans-serif";
   font-size: 3rem;
   letter-spacing: 0.1ch;
 }
 
 .our__services__container h2 {
   margin: 0;
-  font-family: 'futura-std-medium', 'sans-serif';
+  font-family: "futura-std-medium", "sans-serif";
   font-size: 1.2rem;
   letter-spacing: 0.1ch;
 }
@@ -162,7 +162,6 @@
   justify-content: center;
   margin: 2em auto;
   gap: 3em;
-  
 }
 
 .our__services__card {
@@ -170,12 +169,11 @@
   padding: 1em;
   border-radius: 0em;
   align-items: flex-start;
-  
 }
 
-  /* .our__services__card:hover{
-    border: 1px solid black;
-  } */
+.our__services__card:hover {
+  border: 1px solid black;
+}
 
 .our__services__card img {
   width: 100%;
@@ -186,13 +184,11 @@
 .our__services__card h3 {
   margin: 3em 0em 0.4em 0em;
   font-size: 1.5rem;
-  font-family:'futura-std-medium', sans-serif ;
+  font-family: "futura-std-medium", sans-serif;
   letter-spacing: 0.4ch;
- 
-
 }
 
-.our__services__card__service{
+.our__services__card__service {
   margin: 0 0 0.5em 0.3em;
   gap: 0.6em;
 }
@@ -200,23 +196,22 @@
 .our__services__card p {
   margin: 0;
   text-align: left;
-  font-family:'futura-std-light', sans-serif ;
+  font-family: "futura-std-light", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.2ch;
-
 }
 
-.our__services__card button{
+.our__services__card button {
   justify-self: center;
   align-self: flex-start;
   margin-top: 1em;
   padding: 0.5em 1em;
   border-width: 0px;
-  font-family:'futura-std-light', sans-serif ;
+  font-family: "futura-std-light", sans-serif;
   letter-spacing: 0.2em;
 }
 
-.our__services__cards button:hover{
+.our__services__cards button:hover {
   background-color: #ffd700;
 }
 
@@ -227,13 +222,12 @@
   align-items: center;
 }
 
-.explore__cars__header > h3{
-  font-family: 'futura-std-medium', sans-serif;
+.explore__cars__header > h3 {
+  font-family: "futura-std-medium", sans-serif;
   font-weight: 900;
   letter-spacing: 0.2ch;
   font-size: 3rem;
   margin: 0 0 0.5em 0;
-
 }
 
 .wrapper__grid {
@@ -267,20 +261,24 @@
   text-align: left;
   margin-top: 1em;
   align-self: flex-start;
-  font-family:'futura-std-medium', sans-serif ;
+  font-family: "futura-std-medium", sans-serif;
   letter-spacing: 0.1ch;
   font-size: 2rem;
-  margin: 0.3em 0 0 0 ;
+  margin: 0.3em 0 0 0;
 }
 
 .individual__car p {
   text-align: left;
   align-self: flex-start;
   margin-bottom: 1em;
-  font-family:'futura-std-light', sans-serif ;
+  font-family: "futura-std-light", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.2ch;
   margin-top: 0.7em;
+}
+
+.i__car__brand p {
+  align-self: flex-start;
 }
 
 .cars__icon {
@@ -288,32 +286,72 @@
   color: #083f88;
 }
 
-
 /* new hero  */
 .h__n__mc {
   margin: 0 auto;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: repeat(6, 7vw);
+  display: flex;
+  flex-direction: column;
+  position: 
+  relative;
+  justify-content: center;
+  align-items: center;
+
+
 }
 
 .h__n__mc img {
-  grid-column: 1/ 13;
-  grid-row: 1/6;
-  width:  100%;
-  object-fit: cover;
-  aspect-ratio: 3/1;
+  width: 100%;
+  display: block;
+  margin: 0.8em auto;
+}
+
+.rent__from__us{
+  position: absolute;
+  left: 5em;
+  top: 20em;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.rent__from__us h2{
+  margin: 0;
 
 }
 
-.h__n__mc h2{
+.rent__from__us h4{
+  margin: 0 0.5em 0 0;
+  text-emphasis: right;
+  align-self: flex-end;
+  font-family: 'futura-std-light', sans-serif;
+  letter-spacing: 0.2ch;
+
+}
+
+.rent__from__us button{
+  font-family: 'futura-std-light', sans-serif;
+  letter-spacing: 0.2ch;
+  font-weight: bolder;
+  padding: 1em 0em;
+  width: 50%;
+  align-self: flex-end;
+  margin:1em 0em;
+  border-width: 0px;
+
+}
+
+.rent__from__us button:hover{
+  background-color: #ffd700;
+}
+
+.h__n__mc h2 {
   grid-column: 3/11;
   grid-row: 4/5;
   display: flex;
   align-self: center;
   justify-self: center;
   color: #ffd700;
-  font-family: 'futura-std-heavy', sans-serif;
+  font-family: "futura-std-heavy", sans-serif;
   font-weight: 900;
   letter-spacing: 0.2ch;
   font-size: 3rem;
@@ -322,8 +360,8 @@
 .h__booking__form {
   grid-column: 3/11;
   grid-row: 5/7;
-  background-color: #ffd700;
-  box-shadow:   0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); ;
+  background-color: #083f88;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .h__inputs {
@@ -333,12 +371,12 @@
   grid-column: 5/6;
   justify-content: space-around;
   margin-top: 3em;
-
 }
 
 .h__inputs label {
   text-align: left;
   margin-bottom: 1em;
+  color: #ffd700;
   font-family: "futura-std-medium", sans-serif;
   letter-spacing: 0.2ch;
 }
@@ -348,25 +386,25 @@
   border-width: 0;
   background-color: #f2f2f2;
   color: #083f88;
-  font-family: 'futura-std-light', sans-serif;
+  font-family: "futura-std-light", sans-serif;
   font-size: 0.8rem;
   letter-spacing: 0.2ch;
   font-weight: bold;
   padding: 0em 1em;
 }
 
-.h__inputs input:focus{
-outline: none;
+.h__inputs input:focus {
+  outline: none;
 }
 
-.h__date__inputs{
+.h__date__inputs {
   display: flex;
   flex-direction: row;
   gap: 3em;
 }
 
 .h__city input {
- width: 40em;
+  max-width: 40em;
 }
 
 .h__pickup input {
@@ -377,72 +415,67 @@ outline: none;
   width: 10em;
 }
 
-.h__submit__button{
+.h__submit__button {
   display: flex;
   justify-content: center;
   align-items: center;
   grid-row: 6/7;
   grid-column: 3/11;
   margin-bottom: 1em;
-
 }
 
-.h__submit__button button{
+.h__submit__button button {
   padding: 1em 2em;
   border-width: 0em;
-  font-family: 'futura-std-medium', sans-serif;
+  font-family: "futura-std-medium", sans-serif;
   letter-spacing: 0.2ch;
   align-self: flex-end;
 }
 
-.h__submit__button button:hover{
+.h__submit__button button:hover {
   background-color: #083f88;
   color: #ffd700;
 }
 
+@media (max-width: 1024px) {
+  .h__n__mc {
+    grid-template-rows: repeat(6, 5em);
+  }
 
-@media  (max-width:1024px) {
- .h__n__mc{
-  grid-template-rows: repeat(6, 5em)
- }
-
-  .h__n__mc h2{
+  .h__n__mc h2 {
     grid-row: 3/4;
   }
 
-  .h__booking__form{
+  .h__booking__form {
     grid-row: 4/7;
     padding: 1em;
   }
 
-  .h__inputs{
+  .h__inputs {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top: 1em;
-    gap: 1em  ;
+    gap: 1em;
   }
-  
-  .h__inputs label{
+
+  .h__inputs label {
     font-size: 0.8rem;
   }
 
-  .h__date__inputs{
+  .h__date__inputs {
     flex-direction: row;
     gap: 3em;
-
   }
 
-  .h__submit__button{
-   align-self: flex-end;
+  .h__submit__button {
+    align-self: flex-end;
     margin-bottom: 0.2em;
   }
 }
 
-@media  (max-width:768px){
-
+@media (max-width: 768px) {
 }
 
-@media (max-width:480px){
-
+@media (max-width: 480px) {
 }
