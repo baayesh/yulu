@@ -536,7 +536,7 @@
   }
 }
 
-@media (min-width:1024px) {
+@media (min-width:1023px) {
   .hero__med__2__img{
     display: none;
   }

@@ -13,7 +13,6 @@ const Footer = () => {
           <h3>QUICK LINKS</h3>
           <p>Home</p>
           <p>About&nbsp;Us</p>
-
           <p>Contact&nbsp;Us</p>
           {/* <img src={logo__footer} className="logo-footer" /> */}
         </div>
@@ -25,32 +24,40 @@ const Footer = () => {
           <p>Armada</p>
         </div>
         <div className="footer-column">
-          <h3>CARS</h3>
-          <p>Toyota&nbsp;Rush</p>
-          <p>Mitsubhishi&nbsp;Expander</p>
-          <p>Car&nbsp;1</p>
-          <p>Car&nbsp;2</p>
-          <p>Car&nbsp;3</p>
+          <h3>CAR BRANDS</h3>
+          <p>BMW</p>
+          <p>ALFA ROMEO</p>
+          <p>TOYOTA</p>
+          <p>MITSUBHISHI</p>
+          <p>AUDI</p>
+          <p>LEXUS</p>
         </div>
-        <div className="footer-column">
-         
-          <div className="row footer-social">
-            <div className="social-media-icon-container">
-              <FaFacebookF className="social-media-icon" />
-            </div>
-  
-            
+      </div>
+      <div className="footer-column">
+        <div className="row footer-social">
           <div className="social-media-icon-container">
-            <AiFillInstagram  className="social-media-icon"/>
+            <FaFacebookF className="social-media-icon" />
+          </div>
+
+          <div className="social-media-icon-container">
+            <AiFillInstagram className="social-media-icon" />
           </div>
           <div className="social-media-icon-container">
-            <FaTiktok  className="social-media-icon"/>
+            <FaTiktok className="social-media-icon" />
           </div>
           <div className="social-media-icon-container">
-            <FaYoutube  className="social-media-icon"/>
-          </div> 
+            <FaYoutube className="social-media-icon" />
           </div>
         </div>
+      </div>
+
+      <div className="footer__leagal">
+        <a href="#">
+          <p>Privacy Policy</p>
+        </a>
+        <a href="#">
+          <p>Terms and Conditions</p>
+        </a>
       </div>
 
       <div className="footer-lastline">
