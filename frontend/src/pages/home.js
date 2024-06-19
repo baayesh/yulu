@@ -5,6 +5,7 @@ import Hero from '../components/home/hero';
 import OurServices from '../components/home/ourServices';
 import Cars from '../components/home/cars';
 import Footer from '../components/common/footer'
+import WhyChoose from '../components/home/whychoose';
 
 
 const home = () => {
@@ -12,6 +13,7 @@ const home = () => {
     <div>
         <Header/>
         <Hero/>
+        <WhyChoose/>
         <OurServices/>
         <Cars/>
         <Footer/>
