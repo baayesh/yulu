@@ -1,21 +1,32 @@
 import React from "react";
 import "../../styles/home.css";
 import heroImg from "../../assets/home/hero.png";
+import herolarge from '../../assets/home/hero-large.png';
+import heromedium from '../../assets/home/hero-medium.png';
+import heromedium2 from '../../assets/home/hero-medium-2.png';
+import herosmall from '../../assets/home/hero-small.png';
+import { useState } from "react";
+import BookingForm from "./bookingForm";
+
 
 const Hero = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <section>
       <div className="h__n__mc">
-        <img src={heroImg} alt="" />
+        <div className="hero__large__img"><img src={herolarge} alt="" /></div>
+        <div className="hero__med__img"><img src={heromedium} alt='' /></div>
+        <div className="hero__med__2__img"><img src={heromedium2} alt='' /></div>
+        <div className="hero__small__img"><img src={herosmall} alt='' /></div>
 
         <div className="rent__from__us">
           <h2>Rent From Yulu</h2>
-          <h4>and turn heads  </h4>
-          <button>Book Now</button>
+          <h4>and turn heads </h4>
+          <button onClick={() => setIsOpen(true)}>Book Now</button>
         </div>
 
-
-
+        <BookingForm open={isOpen} close={()=>setIsOpen(false)} />
 
         {/* <h2>RENT WITH US</h2>
         <div className="h__booking__form">
@@ -47,8 +58,6 @@ const Hero = () => {
           {" "}
           <button type="submit">Rent Your SUV</button>
         </div> */}
-
-        
       </div>
     </section>
   );
