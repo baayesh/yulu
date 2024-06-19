@@ -359,7 +359,7 @@
   display: fixed;
   top: 50%;
   left: 50%;
-  background-color: beige;
+  background-color: #083f88;
   padding: 2em;
   z-index: 20;
   margin: auto;
@@ -367,6 +367,13 @@
   justify-self: center;
   max-width: 540px;
   margin-top: 20em;
+}
+
+.booking__form h4{
+  color: gold;
+  margin-top: 0;
+  font-family: 'futura-std-heavy', 'sans-serif';
+  font-size: 1.5rem;
 }
 
 .booking-form__overlay {
@@ -390,7 +397,44 @@
 
 .booking__form__input__fields label {
   font-family: "futura-std-medium", sans-serif;
-  font-size: 1.5rem;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.booking__form__input__fields input{
+  border-width: 0px;
+
+  padding: 0.6em;
+}
+
+.booking__form__input__fields input:focus{
+  outline: 0px;
+}
+
+.booking__form__input__fields input::placeholder{
+  font-family: 'futura-std-book', Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.booking__form__button__container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 1em;
+}
+
+.booking__form__button__container button{
+  padding:1em 2em;
+  border-width: 0px;
+  font-family: 'futura-std-book', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.button__close:hover{
+  background-color: rgb(250, 99, 99);
+}
+
+.button__book:hover{
+  background-color: gold;
 }
 
 /* .h__booking__form {

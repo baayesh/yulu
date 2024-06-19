@@ -6,7 +6,7 @@ const Cars = () => {
   return (
     <section>
       <div className="explore__cars__header">
-        <h3>Explore Our SUV's</h3>
+        <h3>Explore Our SUVs</h3>
       </div>
       <div className=" wrapper__grid container cars__main__container">
         {/* <div className=" cars__row"> */}
