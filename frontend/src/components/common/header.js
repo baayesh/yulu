@@ -1,50 +1,54 @@
 import React, { useState } from "react";
 import "../../styles/header__footer.css";
-// Make navigation align to right side
+import toyota from "../../assets/home/header/toyota.png";
+import mitsubishi from "../../assets/home/header/mitsubhishi.png";
+import bmw from "../../assets/home/header/bmw.png";
+import audi from "../../assets/home/header/audi.png";
+import lexus from "../../assets/home/header/lexus.png";
 
 const Header = () => {
   const cardata = [
     {
       brand: "Toyota",
-      models: ["Rush", "Exppander", "Hello there"],
+      models: ["Rush", "Expander", "Hello there"],
       paragraph:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex debitis dolore, nisi nemo sapiente dolorum, vitae - toyota",
-      imgLink: "../../test",
+      imgLink: "",
     },
     {
       brand: "Toyota",
-      models: ["Rush", "Exppander", "Hello there"],
+      models: ["Rush", "Land Cruiser", "Sequoia", "Alphard"],
       paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex debitis dolore, nisi nemo sapiente dolorum, vitae - toyota ",
-      imgLink: "../../test",
+        "Toyota SUVs prioritize capability over luxury. Models like the Land Cruiser and 4Runner are renowned for their off-road prowess and durability, offering comfort but prioritizing functionality. However, some Toyota models, like the Sequoia and higher trims of the Highlander, elevate the experience with premium materials, advanced tech features, and comfortable seating, blurring the lines between capability and a touch of luxury. ",
+      imgLink: toyota,
     },
     {
       brand: "Mitsubhishi",
-      models: ["X1", "X2", "X3"],
+      models: ["Expander", "Pajero", "Eclipse Cross", "Outlander PHEV", "Montero"],
       paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex debitis dolore, nisi nemo sapiente dolorum, vitae - mitsubhishi",
-      imgLink: "../../test",
+        "Mitsubishi SUVs aren't just about conquering the terrain; they're about conquering it in style.  Experience the thrill of off-road prowess combined with surprisingly luxurious interiors featuring high-quality materials and thoughtful design.  Mitsubishi offers a compelling choice for discerning drivers who crave adventure without sacrificing comfort or sophistication.",
+      imgLink: mitsubishi,
     },
     {
       brand: "BMW",
-      models: ["X1", "X2", "X3"],
+      models: ["BMW X7", "BMW X5", "BMW X3"],
       paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex debitis dolore, nisi nemo sapiente dolorum, vitae  -BMW",
-      imgLink: "../../test",
+        "BMW SUVs are not merely vehicles; they are statements of power, precision, and unparalleled luxury.  Experience the thrill of a meticulously crafted driving machine, where every curve and response embodies legendary BMW performance.  Step inside a sanctuary of exquisite materials, cutting-edge technology, and spacious comfort designed to elevate every journey.  BMW SUVs redefine what it means to conquer the road in absolute luxury.",
+      imgLink: bmw,
     },
     {
       brand: "Audi",
-      models: ["X1", "X2", "X3"],
+      models: ["Audi Q8", "E Tron", "Audi SQ5", "Audi Q7"],
       paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex debitis dolore, nisi nemo sapiente dolorum, vitae - Audi",
-      imgLink: "../../test",
+        "Audi SUVs transcend the ordinary, blending progressive technology with unparalleled refinement.  Command the road with confidence in a masterpiece of German engineering, where every detail exudes innovation and precision.  Immerse yourself in a haven of luxurious comfort, crafted with the finest materials and intuitive technology designed to elevate your senses.  Audi SUVs redefine luxury, offering a driving experience that is both exhilarating and effortlessly sophisticated.",
+      imgLink: audi,
     },
     {
       brand: "Lexus",
-      models: ["X1", "X2", "X3"],
+      models: ["Lexus LX", "Lexus GX", "Lexus RX"],
       paragraph:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore ex debitis dolore, nisi nemo sapiente dolorum, vitae - Lexus ",
-      imgLink: "../../test",
+        "Lexus SUVs transcend the realm of transportation, transforming every drive into a meticulously crafted experience.  Anticipation builds as you approach your Lexus, its captivating design a promise of the unparalleled luxury within.  Slide into a serene sanctuary, enveloped by exquisite materials and intuitive technology designed to cater to your every whim.  Lexus SUVs redefine luxury, offering a symphony of power, refinement, and innovation that elevates every journey to an unforgettable arrival. ",
+      imgLink: lexus,
     },
   ];
 
@@ -55,7 +59,7 @@ const Header = () => {
     <section>
       <div className="column header">
         <div className="row  header__top__bar">
-          <h3 className="main__heading">...Offers We are offering...</h3>
+          <h3 className="main__heading"> Drive Luxury. Explore Dubai.</h3>
         </div>
         <div className="header__middle__bar">
           <div className="row container middle__brands">
@@ -65,7 +69,14 @@ const Header = () => {
             <p onMouseOver={() => setActivePopup(4)}>AUDI</p>
             <p onMouseOver={() => setActivePopup(5)}>LEXUS</p>
           </div>
-          <div onMouseLeave={()=>setActivePopup(0)} className={`${activePopup === 0 ?'car__popup__container__none':'car__popup_container'}`}>
+          <div
+            onMouseLeave={() => setActivePopup(0)}
+            className={`${
+              activePopup === 0
+                ? "car__popup__container__none"
+                : "car__popup_container"
+            }`}
+          >
             <div className="car__popup__list">
               <h2>{selectedCarData.brand}</h2>
               <ul>
@@ -76,11 +87,11 @@ const Header = () => {
             </div>
 
             <div className="car__popup__details">
-              <p>
-                {selectedCarData.paragraph}
-              </p>
+              <p>{selectedCarData.paragraph}</p>
             </div>
-            <div className="car__popup__image">car popup image</div>
+            <div className="car__popup__image">
+              <img src={selectedCarData.imgLink} alt="" />
+            </div>
           </div>
         </div>
 
