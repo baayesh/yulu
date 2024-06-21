@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link,Outlet } from "react-router-dom";
 import "../../styles/header__footer.css";
 import toyota from "../../assets/home/header/toyota.png";
 import mitsubishi from "../../assets/home/header/mitsubhishi.png";
@@ -106,10 +107,10 @@ const Header = () => {
             {/* Navigation Links */}
             <ul className="nav-links">
               <li>
-                <a href="#">HOME</a>
+                <Link to='/'>HOME</Link>
               </li>
               <li>
-                <a href="#">ABOUT&nbsp;US</a>
+                <Link to='/about'>ABOUT&nbsp;US</Link>
               </li>
               <li>
                 <a href="#">CONTACT&nbsp;US</a>

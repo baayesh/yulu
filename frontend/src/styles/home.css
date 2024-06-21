@@ -140,6 +140,7 @@
 .why__choose__container{
   max-width: 1440px;
   margin: 2em auto;
+  text-align: center;
 
 }
 
@@ -187,6 +188,7 @@
 /* Our Services */
 .our__services__container {
   margin: 5em auto;
+  text-align: center;
 }
 
 .our__services__container h4 {
