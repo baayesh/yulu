@@ -1,13 +1,13 @@
 import React from "react";
 import "../../styles/home.css";
-import heroImg from "../../assets/home/hero.png";
-import herolarge from '../../assets/home/hero-large.png';
-import heromedium from '../../assets/home/hero-medium.png';
-import heromedium2 from '../../assets/home/hero-medium-2.png';
-import herosmall from '../../assets/home/hero-small.png';
+
+// Images
+import herolarge from "../../assets/home/hero-large.webp";
+import heromedium from "../../assets/home/hero-medium.webp";
+import heromedium2 from "../../assets/home/hero-medium-2.webp";
+import herosmall from "../../assets/home/hero-small.webp";
 import { useState } from "react";
 import BookingForm from "./bookingForm";
-
 
 const Hero = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,10 +15,42 @@ const Hero = () => {
   return (
     <section>
       <div className="h__n__mc">
-        <div className="hero__large__img"><img src={herolarge} alt="" /></div>
-        <div className="hero__med__img"><img src={heromedium} alt='' /></div>
-        <div className="hero__med__2__img"><img src={heromedium2} alt='' /></div>
-        <div className="hero__small__img"><img src={herosmall} alt='' /></div>
+        <div className="hero__large__img">
+          <img
+            loading="lazy"
+            role="presentation"
+            decoding="async"
+            src={herolarge}
+            alt=""
+          />
+        </div>
+        <div className="hero__med__img">
+          <img
+            loading="lazy"
+            role="presentation"
+            decoding="async"
+            src={heromedium}
+            alt=""
+          />
+        </div>
+        <div className="hero__med__2__img">
+          <img
+            loading="lazy"
+            role="presentation"
+            decoding="async"
+            src={heromedium2}
+            alt=""
+          />
+        </div>
+        <div className="hero__small__img">
+          <img
+            loading="lazy"
+            role="presentation"
+            decoding="async"
+            src={herosmall}
+            alt=""
+          />
+        </div>
 
         <div className="rent__from__us">
           <h2>Rent From Yulu</h2>
@@ -26,7 +58,7 @@ const Hero = () => {
           <button onClick={() => setIsOpen(true)}>Book Now</button>
         </div>
 
-        <BookingForm open={isOpen} close={()=>setIsOpen(false)} />
+        <BookingForm open={isOpen} close={() => setIsOpen(false)} />
 
         {/* <h2>RENT WITH US</h2>
         <div className="h__booking__form">

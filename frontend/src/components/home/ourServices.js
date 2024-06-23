@@ -16,6 +16,81 @@ const OurServices = () => {
         <h2 className="">Our Services</h2>
         <h4 className="">Our Best Services for You</h4>
         <div className="our__services__cards">
+          {/* Impulse */}
+          <div className="column our__services__card">
+            <img src={S4Img} alt="" />
+            <h3 className="">IMPULSE</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Day</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+
+            <button>Rent Now</button>
+          </div>
+
+          {/* Expedition */}
+          <div className="column our__services__card">
+            <img src={S3Img} alt="" />
+            <h3 className="">EXPEDITION</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Week</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+
+            <button>Rent Now</button>
+          </div>
+          {/* Echlon */}
+          <div className="column our__services__card">
+            <img src={S2Img} alt="" />
+            <h3 className="">ECHELON</h3>
+            <div className="row our__services__card__service">
+              <CiCalendar />
+              <p>Rent for Month</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiSpeedometerThin />
+              <p>Unlimited Milage</p>
+            </div>
+            <div className="row our__services__card__service">
+              <CiUser />
+              <p>Dedicated Account Manager</p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiBookOpenUserThin />
+              <p>Complementary Detailing </p>
+            </div>
+            <div className="row our__services__card__service">
+              <PiGearThin />
+              <p>Free Maintanance</p>
+            </div>
+
+            <button>Rent Now</button>
+          </div>
+          {/* Armada */}
           <div className="column our__services__card">
             <img src={S1Img} alt="" />
             <h3 className="">ARMADA</h3>
@@ -43,89 +118,7 @@ const OurServices = () => {
             <button>Rent Now</button>
           </div>
 
-
-
-
-          <div className="column our__services__card">
-            <img src={S2Img} alt="" />
-            <h3 className="">ECHELON</h3>
-            <div className="row our__services__card__service">
-              <CiCalendar />
-              <p>Rent for Month</p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiSpeedometerThin />
-              <p>Unlimited Milage</p>
-            </div>
-            <div className="row our__services__card__service">
-              <CiUser />
-              <p>Dedicated Account Manager</p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiBookOpenUserThin />
-              <p>Complementary Detailing </p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiGearThin />
-              <p>Free Maintanance</p>
-            </div>
-
-            <button>Rent Now</button>
-          </div>
-
-
-
-
-          <div className="column our__services__card">
-            <img src={S3Img} alt="" />
-            <h3 className="">EXPEDITION</h3>
-            <div className="row our__services__card__service">
-              <CiCalendar />
-              <p>Rent for Week</p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiSpeedometerThin />
-              <p>Unlimited Milage</p>
-            </div>
-            <div className="row our__services__card__service">
-              <CiUser />
-              <p>Dedicated Account Manager</p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiBookOpenUserThin />
-              <p>Complementary Detailing </p>
-            </div>
-
-            <button>Rent Now</button>
-          </div>
-
-
-
-
-          <div className="column our__services__card">
-            <img src={S4Img} alt="" />
-            <h3 className="">IMPULSE</h3>
-            <div className="row our__services__card__service">
-              <CiCalendar />
-              <p>Rent for Day</p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiSpeedometerThin />
-              <p>Unlimited Milage</p>
-            </div>
-            <div className="row our__services__card__service">
-              <CiUser />
-              <p>Dedicated Account Manager</p>
-            </div>
-            <div className="row our__services__card__service">
-              <PiBookOpenUserThin />
-              <p>Complementary Detailing </p>
-            </div>
-
-            <button>Rent Now</button>
-          </div>
-
-
+  
 
 
         </div>
