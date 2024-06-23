@@ -62,6 +62,8 @@ const Header = () => {
         <div className="row  header__top__bar">
           <h3 className="main__heading"> Drive Luxury. Explore Dubai.</h3>
         </div>
+
+        {/* Car popup */}
         <div className="header__middle__bar">
           <div className="row container middle__brands">
             <p onMouseOver={() => setActivePopup(1)}>TOYOTA</p>

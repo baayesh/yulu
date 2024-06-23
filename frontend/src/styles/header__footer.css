@@ -277,6 +277,25 @@
 }
 
 @media (max-width: 768px) {
+
+  .car__popup_container{
+    flex-direction: column;
+    width: 150%;
+    gap: 1em;
+  }
+
+  .car__popup__list{
+    align-self: center;
+  }
+
+  .car__popup__details{
+    align-self: center;
+  }
+
+
+  .car__popup__image{
+    align-self: center;
+  }
 }
 
 @media (max-width: 480px) {
@@ -286,6 +305,10 @@
 
   .footer-column p {
     font-size: 0.7rem;
+  }
+
+  .car__popup_container{
+    width: 100%;
   }
 }
 
