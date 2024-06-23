@@ -1,11 +1,16 @@
 import React, { useState } from "react";
-import { Link,Outlet } from "react-router-dom";
+import { Link, Outlet } from "react-router-dom";
 import "../../styles/header__footer.css";
 import toyota from "../../assets/home/header/toyota.png";
 import mitsubishi from "../../assets/home/header/mitsubhishi.png";
 import bmw from "../../assets/home/header/bmw.png";
 import audi from "../../assets/home/header/audi.png";
 import lexus from "../../assets/home/header/lexus.png";
+
+// Icons
+import { CiMenuFries } from "react-icons/ci";
+import { TbRuler2 } from "react-icons/tb";
+import { IoClose } from "react-icons/io5";
 
 const Header = () => {
   const cardata = [
@@ -25,7 +30,13 @@ const Header = () => {
     },
     {
       brand: "Mitsubhishi",
-      models: ["Expander", "Pajero", "Eclipse Cross", "Outlander PHEV", "Montero"],
+      models: [
+        "Expander",
+        "Pajero",
+        "Eclipse Cross",
+        "Outlander PHEV",
+        "Montero",
+      ],
       paragraph:
         "Mitsubishi SUVs aren't just about conquering the terrain; they're about conquering it in style.  Experience the thrill of off-road prowess combined with surprisingly luxurious interiors featuring high-quality materials and thoughtful design.  Mitsubishi offers a compelling choice for discerning drivers who crave adventure without sacrificing comfort or sophistication.",
       imgLink: mitsubishi,
@@ -55,6 +66,9 @@ const Header = () => {
 
   const [activePopup, setActivePopup] = useState(0);
   const selectedCarData = cardata[activePopup];
+
+  // Hamberger Menu
+  const [showMenu, setShowMenu] = useState(false);
 
   return (
     <section>
@@ -109,15 +123,34 @@ const Header = () => {
             {/* Navigation Links */}
             <ul className="nav-links">
               <li>
-                <Link to='/'>HOME</Link>
+                <Link to="/">HOME</Link>
               </li>
               <li>
-                <Link to='/about'>ABOUT&nbsp;US</Link>
+                <Link to="/about">ABOUT&nbsp;US</Link>
               </li>
               <li>
                 <a href="#">CONTACT&nbsp;US</a>
               </li>
               {/* Add more link elements as needed */}
+            </ul>
+            <div className="hamberger__menu__icon">
+              <button onClick={() => setShowMenu(true)}>
+                <CiMenuFries />
+              </button>
+            </div>
+          </div>
+          <div
+            className={`${
+              showMenu === true ? "hamberger__menu" : "hamberger__menu__hide"
+            }`}
+          >
+            <ul>
+              <li><Link to="/">HOME</Link></li>
+              <li><Link to="/about">ABOUT&nbsp; US</Link></li>
+              <li><Link>CONTACT&nbsp;US</Link></li>
+              <button onClick={()=>setShowMenu(false)}>
+                <IoClose />
+              </button>
             </ul>
           </div>
         </nav>
