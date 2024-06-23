@@ -145,9 +145,9 @@ const Header = () => {
             }`}
           >
             <ul>
-              <li><Link to="/">HOME</Link></li>
-              <li><Link to="/about">ABOUT&nbsp; US</Link></li>
-              <li><Link>CONTACT&nbsp;US</Link></li>
+              <li><Link to="/" style={{color:'#707070', textDecoration:'none'}}>HOME</Link></li>
+              <li><Link to="/about" style={{color:'#707070', textDecoration:'none'}}>ABOUT&nbsp; US</Link></li>
+              <li><Link style={{color:'#707070', textDecoration:'none'}}>CONTACT&nbsp;US</Link></li>
               <button onClick={()=>setShowMenu(false)}>
                 <IoClose />
               </button>

@@ -190,6 +190,10 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
+.hamberger__menu__hide {
+  display: none;
+}
+
 .hamberger__menu ul {
   display: flex;
   flex-direction: column;
@@ -204,6 +208,7 @@
   font-family: "futura-std-heavy", sans-serif;
   font-size: 0.7rem;
   letter-spacing: 0.2ch;
+  
 }
 
 .hamberger__menu button {
@@ -343,9 +348,7 @@
     grid-column: 12/13;
   }
 
-  .hamberger__menu__hide {
-    display: none;
-  }
+
 }
 
 @media (max-width: 480px) {
