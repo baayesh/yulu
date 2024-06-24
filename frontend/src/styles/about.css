@@ -24,6 +24,11 @@
   line-height: 1.5em;
 }
 
+.about__landing__container span{
+  color: #083F88;
+  font-weight: 900;
+}
+
 .about__landing__images {
   display: flex;
   flex-direction: row;
@@ -45,6 +50,7 @@
   max-width: 1440px;
   justify-content: center;
   align-items: center;
+  column-gap: 1em;
 }
 
 .about__landing__speciality img {
@@ -53,10 +59,23 @@
   margin: 0 auto;
 }
 
-.about__landing__speciality p {
+.about__landing__speciality h5 {
   text-align: center;
   font-family: "futura-std-book", sans-serif;
   letter-spacing: 0.1ch;
+  font-size: 0.85rem;
+  font-weight: 400;
+  margin: 0 auto;
+  text-transform: uppercase;
+}
+
+.about__landing__speciality p{
+  font-family: 'futura-std-book', sans-serif;
+  color: #707070;
+  font-size: 0.7rem;
+  margin: 1em 0 0 0 ;
+  text-align: center;
+
 }
 
 .get__in__touch {
