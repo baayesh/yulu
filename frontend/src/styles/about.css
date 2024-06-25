@@ -82,7 +82,7 @@
   display: flex;
   flex-direction: column;
   max-width: 1440px;
-  margin: 2em auto;
+  margin: 4em auto;
 }
 
 .get__in__touch h3 {
@@ -95,8 +95,12 @@
 
 .get__in__touch p {
   font-family: "futura-std-book", sans-serif;
-  margin: 0;
+  margin: 1em auto;
   text-align: center;
+  max-width: 768px;
+  color: #707070;
+  font-size: 0.85rem;
+
 }
 
 .get__in__touch input {

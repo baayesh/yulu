@@ -1,6 +1,6 @@
 import React from "react";
-import landing_1 from "../../assets/about/landing_1.png";
-import landing_2 from "../../assets/about/landing_2.png";
+import landing_1 from "../../assets/about/landing_1.webp";
+import landing_2 from "../../assets/about/landing_2.webp";
 import car from "../../assets/about/Icons/car.png";
 import after_service from "../../assets/about/Icons/after_service.png";
 import secure_payments from "../../assets/about/Icons/payment.png";
@@ -88,7 +88,7 @@ const About_landing = () => {
       </div>
       <div className="get__in__touch">
         <h3>GET IN TOUCH</h3>
-        <p>Get in touch description</p>
+        <p>Ready to embark on your luxury Dubai adventure? At Yulu Dubai, we're passionate about making your experience seamless and unforgettable.Stay up-to-date on our latest deals, newest additions to the fleet, and exclusive offers by subscribing to our email newsletter. </p>
         <input type="text" placeholder="YOUR EMAIL" />
         <button type="submit">SIGN UP NOW</button>
       </div>
