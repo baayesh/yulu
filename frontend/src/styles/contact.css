@@ -94,6 +94,7 @@
   font-family: "futura-std-heavy";
   letter-spacing: 0.1ch;
   text-transform: uppercase;
+  margin: 1em 0 0 0;
 }
 
 .contact__detail__container h3 {
