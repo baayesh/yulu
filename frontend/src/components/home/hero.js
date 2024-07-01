@@ -60,7 +60,7 @@ const Hero = () => {
               className="rent__from__us__btn1"
               onClick={() => setIsOpen(true)}
             >
-              Book Now
+              Drive Now
             </button>
             <button
               className="rent__from__us__btn2"

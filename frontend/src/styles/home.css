@@ -225,8 +225,9 @@
   font-family: "futura-std-medium", sans-serif;
   font-weight: 900;
   letter-spacing: 0.2ch;
-  font-size: 3rem;
+  font-size: 2rem;
   margin: 0 0 0.5em 0;
+  text-align: center;
 }
 
 .wrapper__grid {
