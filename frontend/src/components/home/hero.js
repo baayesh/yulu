@@ -55,7 +55,20 @@ const Hero = () => {
         <div className="rent__from__us">
           <h2>Rent From Yulu</h2>
           <h4>and turn heads </h4>
-          <button onClick={() => setIsOpen(true)}>Book Now</button>
+          <div className="rent__from__us__buttons">
+            <button
+              className="rent__from__us__btn1"
+              onClick={() => setIsOpen(true)}
+            >
+              Book Now
+            </button>
+            <button
+              className="rent__from__us__btn2"
+              onClick={() => setIsOpen(true)}
+            >
+              Book Now
+            </button>
+          </div>
         </div>
 
         <BookingForm open={isOpen} close={() => setIsOpen(false)} />

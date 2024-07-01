@@ -108,6 +108,7 @@ const Header = () => {
             </div>
             <div className="car__popup__image">
               <img src={selectedCarData.imgLink} alt="" />
+              <button onClick={()=>setActivePopup(0)}><IoClose/></button>
             </div>
           </div>
         </div>
@@ -145,10 +146,31 @@ const Header = () => {
             }`}
           >
             <ul>
-              <li><Link to="/" style={{color:'#707070', textDecoration:'none'}}>HOME</Link></li>
-              <li><Link to="/about" style={{color:'#707070', textDecoration:'none'}}>ABOUT&nbsp; US</Link></li>
-              <li><Link to='/contact'style={{color:'#707070', textDecoration:'none'}}>CONTACT&nbsp;US</Link></li>
-              <button onClick={()=>setShowMenu(false)}>
+              <li>
+                <Link
+                  to="/"
+                  style={{ color: "#707070", textDecoration: "none" }}
+                >
+                  HOME
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/about"
+                  style={{ color: "#707070", textDecoration: "none" }}
+                >
+                  ABOUT&nbsp; US
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/contact"
+                  style={{ color: "#707070", textDecoration: "none" }}
+                >
+                  CONTACT&nbsp;US
+                </Link>
+              </li>
+              <button onClick={() => setShowMenu(false)}>
                 <IoClose />
               </button>
             </ul>

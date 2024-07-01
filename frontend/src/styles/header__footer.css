@@ -112,10 +112,26 @@
 }
 
 .car__popup__image {
+  display: flex;
+  flex-direction: column;
 }
 
 .car__popup__image img {
   max-width: 15em;
+}
+
+.car__popup__image button{
+border-width: 0px;
+background-color: white;
+padding: 1em 1em 0.8em 1em;
+align-self:flex-end ;
+width: 20%;
+margin-top: 0.2em;
+
+}
+
+.car__popup__image button:hover{
+  background-color: tomato;
 }
 /* navigation */
 
@@ -362,6 +378,10 @@
 
   .car__popup_container {
     width: 100%;
+  }
+
+  .car__popup__image button{
+    background-color: tomato;
   }
 }
 
