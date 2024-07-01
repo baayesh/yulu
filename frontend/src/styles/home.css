@@ -114,9 +114,9 @@
 }
 
 .why__choose__container h2 {
-  margin: 0 0 0.5em 0;
+ margin: 0;
   font-family: "futura-std-medium", "sans-serif";
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: 0.1ch;
 }
 
@@ -144,7 +144,7 @@
 .our__services__container h4 {
   margin: 0;
   font-family: "futura-std-medium", "sans-serif";
-  font-size: 3rem;
+  font-size: 2rem;
   letter-spacing: 0.1ch;
 }
 
