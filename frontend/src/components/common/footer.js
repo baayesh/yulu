@@ -87,7 +87,7 @@ const Footer = () => {
         <p>&reg;2024 by YULU DUBAI. All Rights Reserved.</p>
         <h2>
           Designed and Developed by{" "}
-          <a href="" className="footer__lastline__link">
+          <a href="https://www.linkedin.com/in/ayesh-bamunuarachchi-ab5355214/" target="__blank" className="footer__lastline__link">
             ayeshb
           </a>
         </h2>
@@ -97,3 +97,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
